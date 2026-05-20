@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000'
+  baseURL: 'https://vitalis-api-4oco.onrender.com'
 });
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
