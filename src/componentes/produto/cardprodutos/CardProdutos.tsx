@@ -68,11 +68,11 @@ function CardProduto({ produto }: CardProdutosProps) {
 
 
             <div className="flex w-full mt-auto border-t border-slate-900">
-                <Link to={`/editarpostagem/${produto.id}`} 
+                <Link to={`/editarproduto/${produto.id}`} 
                     className='w-full text-white bg-green-900 hover:bg-green-700 flex items-center justify-center py-3 font-bold transition-colors border-r border-slate-900'>
                     <span>Editar</span>
                 </Link>
-                <Link to={`/deletarpostagem/${produto.id}`}
+                <Link to={`/deletarproduto/${produto.id}`}
                     className='w-full text-white bg-[#a04e00] hover:bg-orange-800 flex items-center justify-center py-3 font-bold transition-colors'>
                     <span>Deletar</span>
                 </Link>

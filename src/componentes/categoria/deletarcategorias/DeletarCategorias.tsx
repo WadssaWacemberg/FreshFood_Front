@@ -79,13 +79,13 @@ function DeletarCategorias() {
                 
                 <div className="flex">
                     <button
-                        className="text-white bg-red-500 hover:bg-red-700 w-full py-3 font-bold transition-all"
+                        className="text-white bg-orange-800 hover:bg-red-700 w-full py-3 font-bold transition-all"
                         onClick={retornar}
                     >
                         Não
                     </button>
                     <button
-                        className="w-full text-white bg-green-500 hover:bg-green-900 flex items-center justify-center font-bold transition-all border-l border-purple-700"
+                        className="w-full text-white bg-green-800 hover:bg-green-600 flex items-center justify-center font-bold transition-all border-l border-purple-700"
                         onClick={DeletarCategorias}
                         disabled={isLoading}
                     >

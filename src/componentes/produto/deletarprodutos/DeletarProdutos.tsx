@@ -19,7 +19,7 @@ function DeletarProduto() {
 
     async function buscarPorId(id: string) {
         try {
-            await buscar(`/produto/${id}`, setProduto, {
+            await buscar(`/produtos/${id}`, setProduto, {
                 headers: {
                     'Authorization': token
                 }
@@ -50,7 +50,7 @@ function DeletarProduto() {
         setIsLoading(true)
 
         try {
-            await deletar(`/produto/${id}`, {
+            await deletar(`/produtos/${id}`, {
                 headers: {
                     'Authorization': token
                 }
@@ -72,7 +72,7 @@ function DeletarProduto() {
     }
 
     function retornar() {
-        navigate("/produto")
+        navigate("/produtos")
     }
     
     return (
@@ -95,14 +95,13 @@ function DeletarProduto() {
                 <div className="flex">
                     
                     <button 
-                        className='text-slate-100 bg-red-100 hover:bg-red-700 w-full py-2'
+                        className='text-slate-100 bg-orange-800 hover:bg-red-700 w-full py-2'
                         onClick={retornar}>
                         Não
                     </button>
                     
                     <button 
-                        className='w-full text-slate-100 bg-green-700 
-                        hover:bg-orange-900 flex items-center justify-center'
+                        className='w-full text-slate-100bg-green-800 hover:bg-green-600  flex items-center justify-center'
                         onClick={DeletarProduto}>
 
                         { isLoading ? 
