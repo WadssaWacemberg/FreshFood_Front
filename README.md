@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
+<p align="center">
+  <a href="https://react.dev/" target="blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="100" alt="React Logo" /></a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue" alt="React Version" />
+  <img src="https://img.shields.io/badge/TypeScript-Standard-blue" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-purple" alt="Vite" />
+  <img src="https://img.shields.io/badge/Deploy-Vercel-black" alt="Vercel" />
+</p>
 
-Currently, two official plugins are available:
+# Vitalis Front-End
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **Documentação Técnica: Interface de Usuário (Front-End)**
 
-## React Compiler
+Esta aplicação é a camada de interface e experiência do usuário (UX) do ecossistema Vitalis. Desenvolvida para alta performance, utilizando o paradigma de componentes e tipagem estática rigorosa.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Status do Sistema
+* **Ambiente de Produção:** [https://vitalis-front-five.vercel.app/home](https://vitalis-front-five.vercel.app/home)
+* **Back-end Integrado:** [https://vitalis-api-4oco.onrender.com](https://vitalis-api-4oco.onrender.com)
 
-## Expanding the ESLint configuration
+## 🛠️ Stack Tecnológica
+* **Framework:** React com TypeScript
+* **Build Tool:** Vite
+* **Consumo de API:** Axios
+* **Gerenciamento de Estado:** Context API / Hooks
+* **Infraestrutura:** Vercel (CI/CD Contínuo)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🏗️ Estrutura de Arquitetura
+A aplicação segue os princípios de componentização e desacoplamento:
+1. **Services:** Camada de integração com a REST API.
+2. **Components:** Interface de componentes reutilizáveis.
+3. **Pages:** Definição de rotas e layouts de navegação.
+4. **Hooks:** Lógica de negócio reutilizável e gerenciamento de estado.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ⚙️ Configuração e Execução
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Instalação
+```bash
+npm install
+Comandos de Execução
+Modo de Desenvolvimento: npm run dev
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Build para Produção: npm run build
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Preview do Build: npm run preview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📦 Variáveis de Ambiente
+Para comunicação com o Back-end, configure a variável no seu ambiente:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+VITE_API_URL: URL base da API (ex: https://vitalis-api-4oco.onrender.com)
+
+📄 Licença
+Projeto licenciado sob a licença MIT.
