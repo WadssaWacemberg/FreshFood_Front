@@ -30,7 +30,7 @@ function Home() {
                     
                     <div className="flex flex-col gap-6 items-center lg:items-start text-center lg:text-left justify-center">
                         <h2 className='text-[#19401f] text-4xl lg:text-5xl font-black tracking-tight leading-tight'>
-                            Vitalis: Inteligência Nutricional
+                            FreshFood: Inteligência Nutricional
                         </h2>
                         
                         <p className='text-[#19401f]/80 text-lg font-medium max-w-xl'>
