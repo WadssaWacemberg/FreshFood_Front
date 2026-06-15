@@ -50,7 +50,7 @@ Preview do Build: npm run preview
 📦 Variáveis de Ambiente
 Para comunicação com o Back-end, configure a variável no seu ambiente:
 
-VITE_API_URL: URL base da API (ex: https://vitalis-api-4oco.onrender.com)
+VITE_API_URL: URL base da API (ex:https://fresh-food-front.vercel.app)
 
 📄 Licença
 Projeto licenciado sob a licença MIT.
