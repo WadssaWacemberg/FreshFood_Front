@@ -146,7 +146,7 @@ function Login() {
                 <div className="flex items-center gap-5">
                     {/* LinkedIn */}
                     <a 
-                        href="https://www.linkedin.com/in/wadssawacemberg" 
+                        href="https://www.linkedin.com/in/wadssa-wacemberg" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-1.5 opacity-85 hover:opacity-100 hover:text-[#fff3d1] transition-all group"
