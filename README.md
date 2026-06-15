@@ -16,9 +16,9 @@
 Esta aplicação é a camada de interface e experiência do usuário (UX) do ecossistema Vitalis. Desenvolvida para alta performance, utilizando o paradigma de componentes e tipagem estática rigorosa.
 
 ## 🚀 Status do Sistema
-* **Front-end:** [https://vitalis-front-five.vercel.app/home](https://vitalis-front-five.vercel.app)
-* **Back-end:** [https://vitalis-api-4oco.onrender.com](https://vitalis-api-4oco.onrender.com)
-* **Documentação de API (Swagger):** [https://vitalis-api-4oco.onrender.com/swagger](https://vitalis-api-4oco.onrender.com/swagger)
+* **Front-end:** https://fresh-food-front.vercel.app/
+* **Back-end:** [https://freshfood-1mrr.onrender.com/swagger
+* **Documentação de API (Swagger):** https://freshfood-1mrr.onrender.com/swagger
 
 * 
 ## 🛠️ Stack Tecnológica
