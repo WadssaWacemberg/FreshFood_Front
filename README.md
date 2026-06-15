@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Deploy-Vercel-black" alt="Vercel" />
 </p>
 
-# Vitalis Front-End
+# FreshFood Front-End
 
 > **Documentação Técnica: Interface de Usuário (Front-End)**
 
