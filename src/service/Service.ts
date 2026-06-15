@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'https://vitalis-api-4oco.onrender.com'
+  baseURL: 'https://freshfood-1mrr.onrender.com'
 });
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
