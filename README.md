@@ -13,7 +13,7 @@
 
 > **Documentação Técnica: Interface de Usuário (Front-End)**
 
-Esta aplicação é a camada de interface e experiência do usuário (UX) do ecossistema Vitalis. Desenvolvida para alta performance, utilizando o paradigma de componentes e tipagem estática rigorosa.
+Esta aplicação é a camada de interface e experiência do usuário (UX) do ecossistema FreshFood. Desenvolvida para alta performance, utilizando o paradigma de componentes e tipagem estática rigorosa.
 
 ## 🚀 Status do Sistema
 * **Front-end:** https://fresh-food-front.vercel.app/
